@@ -26,7 +26,7 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('tm2-1');
   });
 
-  it('should render title', () => {
+  fit('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
